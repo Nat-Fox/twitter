@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta name = "viewport" content="width=device-width">
-	<meta charset="UTF-8">
-	<title>Twitter</title>
-	<link href="https://fonts.googleapis.com/css?family=Oswald:300,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/main.css">
-	<script src="https://use.fontawesome.com/7873633050.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <title>Twitter</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://use.fontawesome.com/7873633050.js"></script>
 </head>
-<body> 
-	<header>
-		<nav class="navbar-default">
-			<div class="container">
-				<h1 class="text-center titulo"> TODO APP <span class="icon-twitter"></span></h1>	
-			</div>
-		</nav>
-	</header>
-	<section>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-					<div class="form-group text-center">
-						<textarea class="txt" id="tarea" placeholder="Añade tu nueva tarea"></textarea>
-						<button type="button" class="btn btn-primary pull-right" id="boton" onclick="agregar()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 col-sm-12 col-xs-12">
-					<div id="contenedor" class="text-left"></div> 
-				</div>
-			</div> 
-		</div>
-	</section>
-	<script type="text/javascript" src="js/script.js"></script>
+
+<body>
+    <header>
+        <nav class="navbar-default">
+            <div class="container">
+                <h1 class="text-center titulo"> TODO APP <span class="icon-twitter"></span></h1>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-group text-center">
+                        <textarea class="txt" id="tarea" placeholder="Añade tu nueva tarea"></textarea>
+                        <!--A Eliminar-->
+                        <button type="button" class="btn btn-primary pull-right" id="boton" onclick="agregar()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div id="contenedor" class="text-left"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
